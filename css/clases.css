@@ -1,0 +1,214 @@
+/* Ficha: 2252471
+Fecha: 08 de abril de 2020
+Aprendices: Kevin Fraile, Angely Rojas, Fabian Vargas, Michael Muñoz y Valentina Montenegro 
+Objetivo: Desarrolar una pagina web funcional para un gimnasio con HTML5, JavaScripts, CSS y Bootstrap5*/
+
+* {
+    font-family: "Franklin Gothic Medium";
+    padding: none;
+    margin: none;
+    font-size: 16px;
+    
+}
+
+ /* COLORES */
+
+.azul{
+
+    background-color: rgb(0, 80, 147);
+}
+
+.blanco{
+
+    color: rgb(255, 255, 255);
+}
+
+
+
+.logo1{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+    color: rgb(255, 255, 255);
+ 
+}
+.logo2{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px; 
+    margin-left: 30px;
+    color: rgb(255, 255, 255);
+ 
+}
+
+.der-f{
+    
+    float: right;
+}
+
+.izq-f{
+    
+    float: left;
+}
+
+.centrar{
+
+    margin-left: auto;
+}
+
+.clases{
+
+    height: 400px;
+}
+
+.rojo{
+
+    color: rgb(239, 45, 33);
+    float: right;
+}
+
+.m-arriba {
+
+    margin-top: 13px;
+ 
+}
+
+.posicion-bt1:hover{
+    color:rgb(239, 45, 33);
+}
+
+.posicion-bt2:hover{
+    color:rgb(0, 80, 147);
+}
+
+.posicion-bt3:hover{
+    color:rgb(239, 45, 33);
+}
+
+/*LETRAS*/
+
+.Eras-ITC {
+
+    font-family: "Eras ITC", "Eras Light ITC",  sans-serif ;
+}
+
+.Franklin-Gothic{
+
+    font-family: "Franklin Gothic Medium" ;
+}
+
+/*AEROBICOS*/
+
+#aero{
+    position: relative;
+}
+
+/*BUNGGE*/
+
+#bung{
+    position: relative;
+}
+
+/*CYCLING*/
+
+#cycl{
+    position: relative;
+}
+
+/*YOGA*/
+
+#yoga{
+    position: relative;
+}
+
+/*BOXEO*/
+
+#boxe{
+    position: relative;
+}
+
+/*TRX*/
+
+#trx{
+    position: relative;
+}
+
+/*BOTONES MAÑANA-TARDE-NOCHE*/
+
+.posicion-bt1{
+
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    display: block;
+    width: 200px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 10px solid rgb(0, 80, 147);
+    border-radius: 100px;
+    background-color: rgb(0, 80, 147);
+    
+}
+
+.posicion-bt2{
+
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    display: block;
+    width: 200px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 10px solid rgb(239, 45, 33);
+    border-radius: 100px;
+    background-color: rgb(239, 45, 33);
+    
+}
+
+.posicion-bt3{
+
+    position:absolute;
+    top:60%;
+    left:50%;
+    transform: translateX(-50%) translateY(-50%);
+
+    display: block;
+    width: 200px;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 10px solid rgb(0, 80, 147);
+    border-radius: 100px;
+    background-color: rgb(0, 80, 147);
+    
+}
+
+/*BOTONES REGISTRATE O INICIA SESION AQUI*/
+
+.posicion-bt4{
+
+
+    display: block;
+    width: 90%;
+    text-align:center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    border: 10px solid rgb(0, 80, 147);
+    border-radius: 100px;
+    background-color: rgb(0, 80, 147);
+    
+}
+
+.texto-iniciasesion{
+
+    text-align: center;
+    color: rgb(239, 45, 33);
+}
